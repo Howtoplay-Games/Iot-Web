@@ -30,6 +30,10 @@ head {
 	font-size: 14px;
 }
 
+body a {
+	text-decoration: none;
+}
+
 .nav {
 	position: fixed; 
 	top: 0;
@@ -52,7 +56,7 @@ html {
 
 .discountDisplay {
 	position: fixed; 
-	top: 80px;
+	top: 65px;
 	left: 0;
     width: 100%;
 	height: 1.5%;
@@ -80,6 +84,15 @@ html {
 .gets:hover {
     background: #00cc66;  
     transform: scale(1.05); 
+}
+
+.button-extra {
+	margin-right: 20px;
+}
+
+.button-extra:hover {
+	background-color: white;
+	transition: 0.3s, transform 0.3s;
 }
 
 .view-prod {
@@ -239,6 +252,23 @@ footer {
   margin-top: 15px;
 }
 
+.contacts {
+	text-align: left;
+	margin-left: 40px;
+}
+
+.contacts-table {
+	width: 100%; 
+	max-width: 450px; 
+	border-collapse: separate; 
+	border-spacing: 0; 
+	margin: 20px 0; 
+	border: 1px solid #ddd; 
+	border-radius: 12px; 
+	overflow: hidden;
+	font-family: 'Segoe UI', sans-serif;
+	box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
 
 
 
