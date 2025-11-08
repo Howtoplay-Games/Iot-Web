@@ -14,13 +14,13 @@ Key features include:
 
 ## 📂 Project Structure
 
-Iot-Web/
+Project Exam/
+├── index.html # Homepage of the website
 ├── AboutUs.html # About Us page
-├── index.html # Main homepage
-├── contact.html # Contact page (if any)
 ├── css/ # Stylesheets
 │ └── style.css
-├── images/ # Team member and project images
+├── js/ # JavaScript files
+├── images/ # Images for team members and projects
 │ ├── ceo.png
 │ ├── cfo.png
 │ └── cto.png
