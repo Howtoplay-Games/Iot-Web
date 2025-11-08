@@ -31,11 +31,11 @@
 			<a href="Contacts.html">
 				<button class="button"> 
 					<img src="https://flaticons.net/icon.php?slug_category=mobile-application&slug_icon=contact" alt="icon" width="20" height="20" style="margin-bottom: -5px;">
-					<strong>Contacts </strong>
+					<strong><span style="color: cyan;">Contacts</span> </strong>
 				</button>
 			</a>
 			
-			<a href="Contacts.html">
+			<a href="AboutUs.html">
 				<button class="button"> 
 					<img src="https://img.icons8.com/p1em/512/FFFFFF/contacts.png" alt="icon" width="20" height="20" style="margin-bottom: -5px;">
 					<strong>About us</strong> 
@@ -58,7 +58,7 @@
 	</div>
 
 	<div class="discountDisplay">
-		<p style="text-align: center; color: white;"><strong>🎃 Halloween Discount Ending In: </strong><span style="background-color: #708090; border-radius: 5px; font-size: large; border: 3px solid white; padding: 3px 8px;">30 Days</span> 🎃</p>
+		<p style="text-align: center; color: white;"><strong>🎄 Christmas Discount Ending In: </strong><span style="background-color: #708090; border-radius: 5px; font-size: large; border: 1px solid white; padding: 1px 8px;">60 Days</span> 🎄</p>
 	</div>
 
 	<main>
@@ -75,33 +75,95 @@
 			</tr>
 			<tr>
 				<td style="padding: 12px 15px; font-weight: 600; color: white">Email:</td>
-				<td style="padding: 12px 15px; color: wheat;">randy_chong_haw@connect.ite.edu.sg</td>
+				<td style="padding: 12px 15px; color: wheat;"><a href="mailto:randy_chong_haw@connect.ite.edu.sg" target=”_blank”>randy_chong_haw@connect.ite.edu.sg</a></td>
 			</tr>
 			<tr>
 				<td style="padding: 12px 15px; font-weight: 600; color: white;">Service Number:</td>
 				<td style="padding: 12px 15px; color: wheat;">88000071</td>
 			</tr>
 			<tr>
+				<td style="padding: 12px 15px; font-weight: 600; color: white;">Service Hours:</td>
+				<td style="padding: 12px 15px; color: wheat;">Monday - Friday, 10 AM - 11 AM</td>
+			</tr>
+			<tr>
 				<td style="padding: 12px 15px; font-weight: 600; color: white;">Address:</td>
-				<td style="padding: 12px 15px; color: wheat;">41 Kallang Pudding Road</td>
+				<td style="padding: 12px 15px; color: wheat;"><a href="https://share.google/QV2awUIP0sP2qvePx" target=”_blank”>41 Kallang Pudding Road</a></td>
 			</tr>
 			</table>
 		</div>
-		<div>
-			<p><strong>Feedback to us!</strong></p>
+		<div class="feedback-form" style="width: 400px; margin: 0 auto; text-align: left;">
+			<form style="display: flex; flex-direction: column; gap: 10px;">
+				<p style="font-size: 35px; text-align: center; margin-bottom: 20px;"><strong>Feedback to us!</strong></p>
+
+				<label style="display: flex; flex-direction: column;">
+				<strong>Name:</strong>
+				<input type="text" placeholder="Name" style="padding: 8px; border: 1px solid #ccc; border-radius: 5px;" required>
+				</label>
+
+				<label style="display: flex; flex-direction: column;">
+				<strong>Email:</strong>
+				<input type="email" placeholder="Email" style="padding: 8px; border: 1px solid #ccc; border-radius: 5px;" required>
+				</label>
+
+				<label for="category-select" style="display: flex; flex-direction: column;">
+				<strong>Choose a category:</strong>
+				<select id="category-select" name="category" style="padding: 8px; border: 1px solid #ccc; border-radius: 5px;">
+					<option value="">--Please choose an option--</option>
+					<option value="feedback">Feedback</option>
+					<option value="complaint">Complaint</option>
+					<option value="collaboration">Collaboration</option>
+					<option value="technicial">Technicial issues</option>
+				</select>
+				</label>
+
+				<label style="display: flex; flex-direction: column;">
+				<strong>Message:</strong>
+				<textarea id="comments" name="user_comments" rows="5" cols="40" placeholder="Type your message here..."
+					style="padding: 8px; border: 1px solid #ccc; border-radius: 5px; resize: none;"></textarea>
+				</label>
+
+				<button type="submit" class="button-extra"
+				style="padding: 5px; background-color: #0078D7; color: white; border: none; border-radius: 5px; cursor: pointer;">
+				Submit
+				</button>
+			</form>
 		</div>
+
 
 	
 	</main>
 	
-	<br>
-	
-	<hr>
 
-	<footer>
-  		<p style="text-align:center; color:white;" data-aos="zoom-out">
-    		&copy; 2025 Sensora Inc. All rights reserved.
-  		</p>
+	<footer style="background-color:#1a1a1a; color:white; text-align:center; padding:40px 20px; margin-top:50px;">
+	
+	
+		<div style="margin-bottom:20px;">
+			<a href="index.html" style="color:lightblue; margin:0 15px; text-decoration:none;">Home</a>
+			<a href="Products.html" style="color:lightblue; margin:0 15px; text-decoration:none;">Products</a>
+			<a href="AboutUs.html" style="color:lightblue; margin:0 15px; text-decoration:none;">About Us</a>
+			<a href="Contacts.html" style="color:lightblue; margin:0 15px; text-decoration:none;">Contact</a>
+		</div>
+
+		
+		<div style="margin-bottom:20px; font-size:14px;">
+			<p><strong>Sensora Inc.</strong> | Singapore</p>
+			<p>Email: <a href="mailto:randy_chong_haw@connect.ite.edu.sg" style="color:lightgreen;">randy_chong_haw@connect.ite.edu.sg</a> | 
+			Phone: <span style="color:lightgreen;">+65 88000071</span>
+			</p>
+		</div>
+
+		
+		<div style="margin-bottom:20px;">
+			<a href="#" style="margin:0 10px;"><img src="https://img.icons8.com/ios-filled/50/ffffff/facebook.png" width="24" height="24" alt="Facebook"></a>
+			<a href="#" style="margin:0 10px;"><img src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new.png" width="24" height="24" alt="Instagram"></a>
+			<a href="#" style="margin:0 10px;"><img src="https://img.icons8.com/ios-filled/50/ffffff/twitter.png" width="24" height="24" alt="Twitter"></a>
+		</div>
+
+		
+		<div style="font-size:13px; color:#aaa;">
+			© 2025 Sensora Inc. All rights reserved.
+		</div>
+
 	</footer>
 </body>
 
