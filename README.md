@@ -14,17 +14,12 @@ Key features include:
 
 ## 📂 Project Structure
 
-Project Exam/
-├── index.html # Homepage of the website
-├── AboutUs.html # About Us page
-├── css/ # Stylesheets
-│ └── style.css
-├── js/ # JavaScript files
-├── images/ # Images for team members and projects
-│ ├── ceo.png
-│ ├── cfo.png
-│ └── cto.png
-└── README.md # Project documentation
+- `index.html` — Homepage of the website  
+- `AboutUs.html` — About Us page  
+- `css/style.css` — Stylesheet for the website  
+- `js/` — Folder containing JavaScript files  
+- `images/` — Folder containing images (e.g., `ceo.png`, `cfo.png`, `cto.png`)  
+- `README.md` — Project documentation
 
 
 ## ⚙️ Installation
