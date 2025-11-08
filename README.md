@@ -28,6 +28,7 @@ Key features include:
 
 ```bash
 git clone https://github.com/Howtoplay-Games/Iot-Web.git
+```
 
 ## ✅ TO-DO
 
