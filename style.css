@@ -1,8 +1,7 @@
 body {
 	font-size:20px;
-	/**background-image: url(https://t3.ftcdn.net/jpg/03/22/30/46/360_F_322304683_7ysRarFkmy2osfPKTOYQv7qTPofKelfb.jpg);**/
 	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-            url('https://t3.ftcdn.net/jpg/03/22/30/46/360_F_322304683_7ysRarFkmy2osfPKTOYQv7qTPofKelfb.jpg') no-repeat center center;
+            url('images/background.png') no-repeat center center;
 	background-size: cover;
 	background-position: center center;
 	font-family: 'Inter', system‑ui, -apple‑system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans‑serif;
@@ -414,13 +413,32 @@ textarea {
   text-align: right;
 }
 
-/**@media (max-width: 420px) {
+@media (max-width: 420px) {
   .dr-title-accent { font-size: 30px; }
   .dr-grid { gap: 14px; }
   .dr-card { padding: 14px; min-height: 150px; }
-}**/
+}
 
 
+#notification {
+  position: fixed;  
+  top: 20px;      
+  right: 20px;   
+  background-color: #0078D7;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  z-index: 9999;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.bottom-nav {
+  color:lightblue; 
+  margin:0 15px; 
+  text-decoration:none;
+}
 
 
 
