@@ -274,7 +274,7 @@ footer {
 .contacts {
 	position: relative;
 	text-align: left;
-	left: 200px;
+	left: 140px;
 	top: 200px;
 }
 
@@ -317,6 +317,109 @@ textarea {
 	left: 300px;
 	bottom: 300px;
 }
+
+.signin {
+	position: relative;
+	bottom: 300px;
+}
+
+
+.demo-reviews {
+  text-align: center;
+  margin: 60px 0;
+  color: #fff;
+}
+
+.dr-title {
+  color: #708090;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.dr-title-accent {
+  color: lightblue;
+  font-size: 40px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.dr-sub {
+  color: #f6f6f6;
+  font-size: 14px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.dr-note {
+  color: #f0c;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+
+.dr-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 16px;
+  align-items: start;
+}
+
+
+.dr-card {
+  background-color: #2a2a2a;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.6), 0 0 10px rgba(255,255,255,0.03) inset;
+  color: #ddd;
+  text-align: left;
+  min-height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.dr-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.dr-name {
+  color: lightgreen;
+  font-size: 16px;
+}
+
+.dr-rating {
+  color: lightgreen;
+  font-size: 16px;
+}
+
+
+.dr-text {
+  font-size: 14px;
+  color: #cfcfcf;
+  margin-bottom: 12px;
+  line-height: 1.35;
+}
+
+.dr-badge {
+  font-size: 11px;
+  color: #f0c;
+  font-weight: 700;
+  text-align: right;
+}
+
+/**@media (max-width: 420px) {
+  .dr-title-accent { font-size: 30px; }
+  .dr-grid { gap: 14px; }
+  .dr-card { padding: 14px; min-height: 150px; }
+}**/
+
 
 
 
